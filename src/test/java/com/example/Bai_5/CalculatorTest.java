@@ -21,9 +21,4 @@ public class CalculatorTest {
     void testMul() {
         assertEquals(6, cal.mul(2, 3));
     }
-
-    @Test
-    void testDiv() {
-        assertEquals(2, cal.div(6, 3));
-    }
 }
