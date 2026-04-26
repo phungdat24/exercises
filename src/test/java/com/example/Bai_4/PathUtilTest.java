@@ -13,10 +13,5 @@ public class PathUtilTest {
         String p = path.toString();
         assertTrue(p.contains("tmp"));
     }
-    @Test
-    void wrongPathTest() {
-        String p = "C:\\temp\\data\\file.txt"; // Windows-only
-        assertTrue(p.startsWith("/")); // Linux/macOS-only
-    }
 
 }
