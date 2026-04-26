@@ -11,6 +11,6 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: '25'
+          java-version: '17'
       - name: Build and Test
         run: mvn -B -DskipTests=false test package
